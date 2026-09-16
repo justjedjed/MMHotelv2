@@ -1,0 +1,207 @@
+:root {
+  /* ========================
+     BRAND & ACCENT COLORS
+     ======================== */
+  --color-brand-yellow: #A76B09;
+  --color-brand-yellow-deep: #7A4E06;
+  --color-yellow-light: #F6EDDA;
+  --color-yellow-dark: #5C4B00;
+  --color-brand-blue: #673A0C;
+  --color-blue-pressed: #4A2A08;
+  --color-brand-coral: #A76B09;
+  --color-coral-light: #F4E8E3;
+  --color-coral-dark: #7A2E2A;
+  --color-brand-rose: #F5A9C0;
+  --color-rose-light: #F5EAEE;
+  --color-brand-teal: #00C7B7;
+  --color-teal-light: #E4F1EE;
+  --color-moss-dark: #1A3A2A;
+  --color-brand-pink: #F5EAEE;
+  --color-brand-orange-light: #F5EEDF;
+
+  /* ========================
+     SURFACE COLORS
+     ======================== */
+  --color-canvas: #FBFAF6;
+  --color-surface: #F4EFE5;
+  --color-surface-soft: #F8F4EB;
+  --color-surface-yellow: #F6EDDA;
+  --color-surface-pricing-featured: #F0EAD9;
+  --color-hairline: #E6DCC8;
+  --color-hairline-soft: #EFE8D9;
+  --color-hairline-strong: #D4C6A8;
+
+  /* ========================
+     TEXT COLORS
+     ======================== */
+  --color-ink-deep: #1B1710;
+  --color-ink: #262019;
+  --color-charcoal: #3C352B;
+  --color-slate: #6E6657;
+  --color-steel: #9A917E;
+  --color-stone: #B9B09D;
+  --color-muted: #CCC4B3;
+  --color-on-dark: #FFFFFF;
+  --color-on-dark-muted: rgba(255, 255, 255, 0.62);
+  --color-on-primary: #FFFFFF;
+  --color-primary: #1B1710;
+
+  /* ========================
+     SEMANTIC COLORS
+     ======================== */
+  --color-success-accent: #2DB67D;
+  --color-brand-red: #F7E9E6;
+  --color-brand-red-dark: #B33A2B;
+
+  /* ========================
+     FOOTER
+     ======================== */
+  --color-footer-bg: #0E0C08;
+
+  /* ========================
+     HERO OVERLAY GRADIENT STOPS
+     ======================== */
+  --hero-overlay-start: rgba(251, 250, 246, 0.45);
+  --hero-overlay-mid: rgba(251, 250, 246, 0.35);
+  --hero-overlay-end: rgba(251, 250, 246, 0.60);
+
+  /* ========================
+     TYPOGRAPHY
+     ======================== */
+  --font-family: 'Inter', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+
+  /* Display / Hero */
+  --typography-hero-display: 500 76px/1.08 var(--font-display);
+  --typography-display-lg: 500 56px/1.12 var(--font-display);
+  --typography-heading-1: 500 44px/1.18 var(--font-display);
+  --typography-heading-2: 500 34px/1.22 var(--font-display);
+  --typography-heading-3: 500 26px/1.30 var(--font-display);
+  --typography-heading-4: 500 21px/1.35 var(--font-display);
+  --typography-heading-5: 500 17px/1.45 var(--font-display);
+
+  /* Body */
+  --typography-subtitle: 400 17px/1.60 var(--font-family);
+  --typography-body-md: 400 16px/1.65 var(--font-family);
+  --typography-body-md-medium: 500 16px/1.65 var(--font-family);
+  --typography-body-sm: 400 14px/1.65 var(--font-family);
+  --typography-body-sm-medium: 500 14px/1.65 var(--font-family);
+  --typography-caption: 400 13px/1.55 var(--font-family);
+  --typography-caption-bold: 600 13px/1.55 var(--font-family);
+  --typography-micro: 500 12px/1.50 var(--font-family);
+  --typography-micro-uppercase: 600 11px/1.50 var(--font-family);
+  --typography-eyebrow: 600 11px/1.50 var(--font-family);
+
+  /* Button & Special */
+  --typography-button-md: 600 12px/1.30 var(--font-family);
+  --typography-stat-display: 500 60px/1.10 var(--font-family);
+
+  /* ========================
+     LETTER TRACKING
+     ======================== */
+  --tracking-eyebrow: 0.22em;
+  --tracking-caps: 0.14em;
+  --tracking-button: 0.12em;
+
+  /* ========================
+     SPACING
+     ======================== */
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 32px;
+  --spacing-xxxl: 40px;
+  --spacing-section-sm: 48px;
+  --spacing-section: 72px;
+  --spacing-section-lg: 110px;
+  --spacing-hero: 120px;
+
+  /* ========================
+     BORDER RADIUS
+     ======================== */
+  --rounded-xs: 2px;
+  --rounded-sm: 4px;
+  --rounded-md: 6px;
+  --rounded-lg: 10px;
+  --rounded-xl: 14px;
+  --rounded-xxl: 18px;
+  --rounded-xxxl: 24px;
+  --rounded-feature: 28px;
+  --rounded-full: 9999px;
+  --radius-btn: 3px;
+
+  /* ========================
+     ELEVATION / SHADOWS
+     ======================== */
+  --shadow-0: none;
+  --shadow-1: rgba(27, 23, 16, 0.04) 0px 1px 2px 0px;
+  --shadow-2: rgba(27, 23, 16, 0.06) 0px 6px 20px -6px;
+  --shadow-3: rgba(27, 23, 16, 0.09) 0px 14px 40px -10px;
+  --shadow-4: rgba(27, 23, 16, 0.14) 0px 22px 60px -14px;
+
+  /* ========================
+     LAYOUT
+     ======================== */
+  --container-max: 1220px;
+  --container-padding: 32px;
+}
+
+/* ========================
+   DARK MODE OVERRIDES
+   ======================== */
+[data-theme="dark"] {
+  /* Surface colors — near-black warm base */
+  --color-canvas: #0B0B0D;
+  --color-surface: #181619;
+  --color-surface-soft: #181B22;
+  --color-surface-yellow: #211B0E;
+  --color-surface-pricing-featured: #1C1C22;
+  --color-hairline: #272A31;
+  --color-hairline-soft: #1D2026;
+  --color-hairline-strong: #34383F;
+
+  /* Text colors — warm off-white */
+  --color-ink-deep: #F5F0E6;
+  --color-ink: #EDE9E0;
+  --color-charcoal: #D6D2C4;
+  --color-slate: #A8A494;
+  --color-steel: #8A8678;
+  --color-stone: #6E6A60;
+  --color-muted: #55514A;
+  --color-on-dark: #FFFFFF;
+  --color-on-dark-muted: rgba(255, 255, 255, 0.55);
+  --color-on-primary: #0B0B0D;
+  --color-primary: #0B0B0D;
+
+  /* Pastel cards — dark amber/bronze tint */
+  --color-yellow-light: #211B0E;
+  --color-coral-light: #221711;
+  --color-rose-light: #221418;
+  --color-teal-light: #101F1C;
+
+  /* Brand gold — bright gold accent */
+  --color-brand-yellow: #DDA74F;
+  --color-brand-yellow-deep: #A76B09;
+
+  /* Semantic */
+  --color-success-accent: #2DB67D;
+  --color-brand-red: #221312;
+  --color-brand-red-dark: #FF5252;
+
+  /* Footer — deep black */
+  --color-footer-bg: #070708;
+
+  /* Shadows — gold-tinted glow for dark backgrounds */
+  --shadow-1: rgba(221, 167, 79, 0.07) 0px 1px 2px 0px;
+  --shadow-2: rgba(0, 0, 0, 0.6) 0px 6px 20px -6px;
+  --shadow-3: rgba(0, 0, 0, 0.7) 0px 14px 40px -10px;
+  --shadow-4: rgba(0, 0, 0, 0.8) 0px 22px 60px -14px;
+
+  /* Hero overlay — dark gradient for dark mode */
+  --hero-overlay-start: rgba(11, 11, 13, 0.55);
+  --hero-overlay-mid: rgba(11, 11, 13, 0.45);
+  --hero-overlay-end: rgba(11, 11, 13, 0.65);
+}
